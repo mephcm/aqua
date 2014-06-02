@@ -1,0 +1,92 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+/* Specific to example one */
+
+/* #products-additional-info-holder { background: #eee; padding: 10px; margin: 10px 0 20px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; } */
+
+#products-additional-info-holder {
+	width: 940px;
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+	z-index: 999;
+	display: block;
+}
+
+
+
+div.products-additional-info-holder .list-wrap {
+	border: 1px #d9d9d9 solid;
+	width: 936px;
+	
+	background-image: linear-gradient(bottom, rgb(235,235,235) 8%, rgb(255,255,255) 55%);
+background-image: -o-linear-gradient(bottom, rgb(235,235,235) 8%, rgb(255,255,255) 55%);
+background-image: -moz-linear-gradient(bottom, rgb(235,235,235) 8%, rgb(255,255,255) 55%);
+background-image: -webkit-linear-gradient(bottom, rgb(235,235,235) 8%, rgb(255,255,255) 55%);
+background-image: -ms-linear-gradient(bottom, rgb(235,235,235) 8%, rgb(255,255,255) 55%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.08, rgb(235,235,235)),
+	color-stop(0.55, rgb(255,255,255))
+);
+
+}
+
+#products-additional-info-holder p { padding: 10px 15px !important; }
+
+#products-additional-info-holder .nav { overflow: hidden; margin: 0px 0 10px 0; padding-bottom: 0px !important; }
+#products-additional-info-holder .nav li { width: 97px; float: left; margin: 0 10px 0 0; }
+#products-additional-info-holder .nav li.last { margin-right: 0; }
+#products-additional-info-holder .nav li a {
+	display: block; color: #000; font-size: 18px; text-align: center; border: 0; font-family: 'Yanone Kaffeesatz', sans-serif; background: url('images/tab-bg.png') no-repeat 0 0; width: 312px; height: 33px;
+}
+#products-additional-info-holder .nav li a.current { background: url('images/tab-bg.png') no-repeat 0 -33px; color: #fff; }
+#products-additional-info-holder .nav li a:hover { background: url('images/tab-bg.png') no-repeat 0 -33px; text-decoration: none; color: #fff; }
+
+/*
+#products-additional-info-holder ul { list-style: none; }
+#products-additional-info-holder ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+#products-additional-info-holder ul li a:hover { background: #fe4902; color: white; }
+#products-additional-info-holder ul li:last-child a { border: none; }
+*/
+#products-additional-info-holder ul { list-style: none; }
+#products-additional-info-holder ul li a { display: block; border-bottom: 1px solid #666; color: #666; }
+/* #products-additional-info-holder ul li a:hover { background: #fe4902; color: white; } */
+#products-additional-info-holder ul li:last-child a { border: none; }
+
+
+
+
+#products-additional-info-holder ul.nav li {  width: 312px; height: 33px; line-height: 33px; }
+
+/*
+#products-additional-info-holder ul li.nav-one a.current, #products-additional-info-holder ul.featured li a:hover { background-color: #0575f4; color: white; }
+#products-additional-info-holder ul li.nav-two a.current, #products-additional-info-holder ul.core li a:hover { background-color: #d30000; color: white; }
+#products-additional-info-holder ul li.nav-three a.current, #products-additional-info-holder ul.jquerytuts li a:hover { background-color: #8d01b0; color: white; }
+#products-additional-info-holder ul li.nav-four a.current, #products-additional-info-holder ul.classics li a:hover { background-color: #FE4902; color: white; }
+*/
+
+
+
+.ca-tab-shadow {
+	background: url('images/tab-shadow.png') no-repeat 0 0;
+	width: 936px;
+	height: 22px;
+	position: relative;
+	top: -12px;
+	z-index: 5;
+}

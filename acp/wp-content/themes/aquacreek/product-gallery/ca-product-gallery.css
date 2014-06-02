@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+div#gallery-body {
+	float: left;
+	margin: 0px 15px 0 0;
+	width: 100%;
+}
+
+
+div#gallery-body #push {
+	height: 43px; /* .push must be the same height as .footer */
+    padding-top:10px;
+}
+
+div#gallery-body #wrapper {
+    width:450px;
+    min-height: 96%;
+	height: auto !important;
+	height: 96%;
+	text-align:left;
+    margin: 0 auto -30px;
+    padding:0 10px 0px 10px;
+}
+
+div#gallery-body .clearfix {
+	clear:both;
+	float:none;
+}
+div#gallery-body #bigPic {
+	width:420px;
+	height:auto;
+	padding:5px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	margin-bottom:10px;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
+div#gallery-body #bigPic img {
+	/* position:absolute; */
+	width: 420px;
+	display:none;
+	clip: rect(0px,420px,270px,0px);
+}
+div#gallery-body ul#thumbs li.active {
+	border:2px solid #b1b1b1;	
+	background:#fff;
+	padding:2px;
+	opacity: 1 !important;
+}
+
+div#gallery-body ul#thumbs li:hover {
+	opacity: 1 !important;
+}
+
+
+div#gallery-body ul#thumbs, ul#thumbs li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+div#gallery-body ul#thumbs li {
+	float:left;
+	margin: 0 7px 5px 0 !important;
+	border:1px solid #CCC;	
+	padding: 3px;
+	cursor:pointer;
+	list-style: none;
+	opacity: 0.65;
+}
+div#gallery-body ul#thumbs img {
+	float:left;
+	width:94px;
+	height:99px;
+	/* line-height:80px; */
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	/* opacity: 0.65; */
+}
