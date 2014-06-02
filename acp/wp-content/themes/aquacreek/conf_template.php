@@ -34,7 +34,6 @@
 	</script>
 
 	<script src="<?php bloginfo('template_url') ?>/conf/scripts/imgLiquid-min.js"></script>
-
 	<div id="content-sidebar-wrap" class="content-sidebar-wrap-products">
 	<div id="content" class="hfeed category-product-page">
 
@@ -43,7 +42,7 @@
 	echo '</div>'; ?>
 
 	<form id="configurator" class="configurator pool-lifts">
-
+	<div class=""></div>
 	<div class="conf_title">
 		<i class="fa fa-cog"></i>
 
